@@ -1,7 +1,3 @@
-Title: Build a data export utility for NetScout nGenius
-Date: 2016-4-07
-Tags: Networking, Security, Tools, html, netscout, monitoring
-Category: blog
 
 Summary: A quick and portable utility using html forms to extract NetScout data from nGenius, via the NetScout API's available
 
