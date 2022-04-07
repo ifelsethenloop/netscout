@@ -1,5 +1,6 @@
+# NetScout data extract utility
 
-Summary: A quick and portable utility using html forms to extract NetScout data from nGenius, via the NetScout API's available
+### Summary: A quick and portable utility using html forms to extract NetScout data from nGenius, via the NetScout API's available
 
 *Relevance and why this tool is useful*
 
@@ -7,7 +8,7 @@ NetScout provides the ability to extract raw data from its built in tables, this
 
 The article below explains how this is done and can be used as a template for multiple NetScout deployments, also an easy to use front end for non-experienced users. Another benefit is the ability to extract data not available via Performance Monitor or nGenius HTML5 GUI, such as extracting all IP flows for a specific interface for the past week, not a 'Top X' but ALL IP's.
 
-### How the API works 
+## How the API works 
 
 The underlying tool on the NetScout probes is **CDE** [Common Data Export]. This is a command line utility that allows you to extract logged data from the nGenius Performance Manager CDM Flow database or monitored element information from the nGenius Server and move it to a third-party system.
 
@@ -15,7 +16,7 @@ CDE allows you to capture data that could be displayed in the Performance Manage
 
 This can be run as a CLI via nGenius server itself or like we use here send the instructions via HTML requests, which is known as *URL-Based Data Access Tool*.
 
-### Usage Guidelines
+## Usage Guidelines
 
 Before you start using CDE, here are some helpful guidelines to keep in mind:
 
